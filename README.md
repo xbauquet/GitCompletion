@@ -1,14 +1,14 @@
 # GitCompletion
 
-- copy the both files to your home directory ```~/```
+- Clone the repository into your home directory ```~/```
 - add the folowing code to your ```.bashrc``` or ```.bash_profile```
 
 ```
-if [ -f ~/.git-completion.bash ]; then
-  source ~/.git-completion.bash
+if [ -f ~/GitCompletion/git-completion.bash ]; then
+  source ~/GitCompletion/git-completion.bash
 fi
-if [ -f ~/.git-prompt.sh ]; then
-  source ~/.git-prompt.sh
+if [ -f ~/GitCompletion/git-prompt.sh ]; then
+  source ~/GitCompletion/git-prompt.sh
 fi
 ```
 
